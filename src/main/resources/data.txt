@@ -1,0 +1,4 @@
+id,name,salary
+102,sayaji,300000
+100,sharu,400000
+103,umaji,100000
