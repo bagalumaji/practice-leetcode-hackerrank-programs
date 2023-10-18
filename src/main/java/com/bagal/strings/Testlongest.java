@@ -2,7 +2,7 @@ package com.bagal.strings;
 
 public class Testlongest {
     public static void main(String[] args) {
-         String str ="cbbd";
+         String str ="tcbbct";
         int cnt = 0;
         String res = "";
             for (int i = 0; i < str.length(); i++) {
