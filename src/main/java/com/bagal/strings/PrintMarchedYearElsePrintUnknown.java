@@ -32,15 +32,15 @@ public class PrintMarchedYearElsePrintUnknown {
                 " xxx zzz\n" +
                 " zzz kkk";
 
-       getResult(str1, str2);
+        searchStringAndPrint(str1, str2);
     }
-    static void getResult(String str1, String  str2){
+    static void searchStringAndPrint(String str1, String  str2){
         String [] str2Lines = str2.split("\n");
         Map<String,String> map = splitStringAndGetArrayOfString(str1);
         for(String name : str2Lines){
             name = name.trim();
             if(map.containsKey(name)){
-                System.out.println(name+"=>"+map.get(name));
+                System.out.println(name+"=> "+map.get(name));
             }else {
                 System.out.println(name+"=> unknown");
             }
